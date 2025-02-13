@@ -1,0 +1,589 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Farmer_Project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Farmer_Project.3ym3o54hqe.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\css\\farmersIndex.css",
+      "PackagePath": "staticwebassets\\css\\farmersIndex.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\css\\sidebars.css",
+      "PackagePath": "staticwebassets\\css\\sidebars.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\css\\testimonial.css",
+      "PackagePath": "staticwebassets\\css\\testimonial.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\0173ceef1d87d1d060ccde42d2660241.jpg",
+      "PackagePath": "staticwebassets\\images\\0173ceef1d87d1d060ccde42d2660241.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\1edce23d22e693eb1b512355f2900a8b.jpg",
+      "PackagePath": "staticwebassets\\images\\1edce23d22e693eb1b512355f2900a8b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\1ee2a255ed798afe25ba2dea7e67ca34.png",
+      "PackagePath": "staticwebassets\\images\\1ee2a255ed798afe25ba2dea7e67ca34.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\20e16b82a3a9e8a04608c0da3af8ca7e.png",
+      "PackagePath": "staticwebassets\\images\\20e16b82a3a9e8a04608c0da3af8ca7e.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\220873ff2ca7a97ba882d35c914e4245.png",
+      "PackagePath": "staticwebassets\\images\\220873ff2ca7a97ba882d35c914e4245.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\46e7d1a391022c6ee1624c57065c7181.png",
+      "PackagePath": "staticwebassets\\images\\46e7d1a391022c6ee1624c57065c7181.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\493bfca2bdffbdefa3e9f7deff8e87d0.jpg",
+      "PackagePath": "staticwebassets\\images\\493bfca2bdffbdefa3e9f7deff8e87d0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\4e6ffc77fd5c2ce09b26925226d10112.png",
+      "PackagePath": "staticwebassets\\images\\4e6ffc77fd5c2ce09b26925226d10112.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\5528b094a8ec4dad0978023086c87638.png",
+      "PackagePath": "staticwebassets\\images\\5528b094a8ec4dad0978023086c87638.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\6a06a211d10eb9c150fe39c439dcb438.png",
+      "PackagePath": "staticwebassets\\images\\6a06a211d10eb9c150fe39c439dcb438.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\94f516b61c5cdcc95302098cf2d9c7a3.png",
+      "PackagePath": "staticwebassets\\images\\94f516b61c5cdcc95302098cf2d9c7a3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\a7753007ac0044f2955d48d55740b020.png",
+      "PackagePath": "staticwebassets\\images\\a7753007ac0044f2955d48d55740b020.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\about-1.jpg",
+      "PackagePath": "staticwebassets\\images\\about-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\about-img.jpg",
+      "PackagePath": "staticwebassets\\images\\about-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\b2998edad5e1f770aa00e86ce69dbc34.png",
+      "PackagePath": "staticwebassets\\images\\b2998edad5e1f770aa00e86ce69dbc34.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\b378aa38111af6f2c3cb4a01ce000193.jpg",
+      "PackagePath": "staticwebassets\\images\\b378aa38111af6f2c3cb4a01ce000193.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\be145bd3de6fb512b53289fc0007f83e.jpg",
+      "PackagePath": "staticwebassets\\images\\be145bd3de6fb512b53289fc0007f83e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\c41923e662bd7919f6fd4840f88f08a5.png",
+      "PackagePath": "staticwebassets\\images\\c41923e662bd7919f6fd4840f88f08a5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\caab04361002993842ed7654298e5e4c.png",
+      "PackagePath": "staticwebassets\\images\\caab04361002993842ed7654298e5e4c.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\call.png",
+      "PackagePath": "staticwebassets\\images\\call.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\cd08f299ae8d29e634a7f2d5846fff0b.png",
+      "PackagePath": "staticwebassets\\images\\cd08f299ae8d29e634a7f2d5846fff0b.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\circular_image_1.png",
+      "PackagePath": "staticwebassets\\images\\circular_image_1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\circular_image_2.png",
+      "PackagePath": "staticwebassets\\images\\circular_image_2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\circular_image_3.png",
+      "PackagePath": "staticwebassets\\images\\circular_image_3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\client-img.png",
+      "PackagePath": "staticwebassets\\images\\client-img.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\d60b009600455d5d7538d1e8b8b91fd5.jpg",
+      "PackagePath": "staticwebassets\\images\\d60b009600455d5d7538d1e8b8b91fd5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\d933ebc3e9df3b617dbd796154901af7.png",
+      "PackagePath": "staticwebassets\\images\\d933ebc3e9df3b617dbd796154901af7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\d9ea78de4fc35fa11d8517800710740f.png",
+      "PackagePath": "staticwebassets\\images\\d9ea78de4fc35fa11d8517800710740f.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\da09509a1347343287ff99981fafc4e0.png",
+      "PackagePath": "staticwebassets\\images\\da09509a1347343287ff99981fafc4e0.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\dcc308d3960f66ecd4c9197e4a36664d.jpg",
+      "PackagePath": "staticwebassets\\images\\dcc308d3960f66ecd4c9197e4a36664d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\default.jpg",
+      "PackagePath": "staticwebassets\\images\\default.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\f-1.jpg",
+      "PackagePath": "staticwebassets\\images\\f-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\f-2.jpg",
+      "PackagePath": "staticwebassets\\images\\f-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\f-3.jpg",
+      "PackagePath": "staticwebassets\\images\\f-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\f-4.jpg",
+      "PackagePath": "staticwebassets\\images\\f-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\f-5.jpg",
+      "PackagePath": "staticwebassets\\images\\f-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\f-6.jpg",
+      "PackagePath": "staticwebassets\\images\\f-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\f-7.jpg",
+      "PackagePath": "staticwebassets\\images\\f-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\f-8.jpg",
+      "PackagePath": "staticwebassets\\images\\f-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\f-9.jpg",
+      "PackagePath": "staticwebassets\\images\\f-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\f-brand.jpg",
+      "PackagePath": "staticwebassets\\images\\f-brand.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\f-rice.jpg",
+      "PackagePath": "staticwebassets\\images\\f-rice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\facebook-logo-button.png",
+      "PackagePath": "staticwebassets\\images\\facebook-logo-button.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\fce680893304b7d40e77ed904fa71212.jpg",
+      "PackagePath": "staticwebassets\\images\\fce680893304b7d40e77ed904fa71212.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\good_jam.jpeg",
+      "PackagePath": "staticwebassets\\images\\good_jam.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\homiya.png",
+      "PackagePath": "staticwebassets\\images\\homiya.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\instagram.png",
+      "PackagePath": "staticwebassets\\images\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\left-angle.png",
+      "PackagePath": "staticwebassets\\images\\left-angle.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\left-quote.png",
+      "PackagePath": "staticwebassets\\images\\left-quote.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\link.png",
+      "PackagePath": "staticwebassets\\images\\link.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\linkedin.png",
+      "PackagePath": "staticwebassets\\images\\linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\location.png",
+      "PackagePath": "staticwebassets\\images\\location.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\mail.png",
+      "PackagePath": "staticwebassets\\images\\mail.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\menu.png",
+      "PackagePath": "staticwebassets\\images\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\news_00.png",
+      "PackagePath": "staticwebassets\\images\\news_00.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\right-angle.png",
+      "PackagePath": "staticwebassets\\images\\right-angle.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\right-quote.png",
+      "PackagePath": "staticwebassets\\images\\right-quote.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\shop-img.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\slider-img.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\slider1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\slider2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\slider3.jpg",
+      "PackagePath": "staticwebassets\\images\\slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\tea_soap.png",
+      "PackagePath": "staticwebassets\\images\\tea_soap.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\images\\twitter-logo-button.png",
+      "PackagePath": "staticwebassets\\images\\twitter-logo-button.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\js\\DashBoard.js",
+      "PackagePath": "staticwebassets\\js\\DashBoard.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TQC_網頁資料擷取與分析\\VS\\Farmer_Project\\Farmer_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Farmer_Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Farmer_Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Farmer_Project.props",
+      "PackagePath": "build\\Farmer_Project.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Farmer_Project.props",
+      "PackagePath": "buildMultiTargeting\\Farmer_Project.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Farmer_Project.props",
+      "PackagePath": "buildTransitive\\Farmer_Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

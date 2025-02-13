@@ -1,0 +1,66 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using Farmer_Project.Models.ViewModel
+@model UserLoginViewModel
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+<style>
+    .bg_color {
+        background-color: #F2AE30;
+    }
+</style>
+
+<div class="container d-flex justify-content-center" style="padding: 100px 0 150px">
+    <div class="card shadow-lg" style="max-width: 550px; width: 100%;">
+        <form id="LoginForm" action="/Home/login" method="post" style="padding:50px 40px 25px">
+
+            @if (TempData["success"] != null)
+            {
+                <div class="alert alert-success" role="alert">
+                    @TempData["success"]
+                </div>
+            }
+
+            <!-- 標題 -->
+            <div class="bg_color text-center p-2 rounded mb-4">
+                <h4 class="mb-0 fw-bold fs-3">會員登入</h4>
+            </div>
+
+            <!-- 會員帳號 -->
+            <div class="my-5">
+                <label for="Email" class="form-label fw-bold fs-5">會員帳號</label>
+                <input type="text" class="form-control form-control mb-3" id="Email" name="Email" placeholder="請輸入電子信箱" required>
+                <div class="text-danger">
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <!-- 會員密碼 -->
+            <div class="my-5">
+                <label for="Password" class="form-label fw-bold fs-5">會員密碼</label>
+                <input type="password" class="form-control form-control mb-3" id="Password" name="Password" placeholder="6~12位數的密碼組合" required>
+                <div class="text-danger">
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <!-- 登入與忘記密碼 -->
+            <div class="d-flex justify-content-center align-items-center mb-4">
+                <button type="submit" class="btn btn-primary me-3">登入</button>
+                <a href="/Home/forgetPassword" class="text-decoration-none fs-6">忘記密碼?</a>
+            </div>
+
+            <!-- 註冊會員 -->
+            <div class="text-center">
+                <p class="mb-2 fw-bold fs-6">還不是會員？</p>
+                <a href="/Home/register" class="btn btn-link fs-6">註冊會員</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>

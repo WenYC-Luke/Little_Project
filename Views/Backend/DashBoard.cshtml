@@ -1,0 +1,351 @@
+﻿@model Farmer_Project.Models.ViewModel.DashboardViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>後臺管理系統</title>
+    <!--bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+    <!--font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--customer css-->
+    <link href="/css/sidebars.css" rel="stylesheet" />
+    <style>
+        .areaNone{
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+    <header class="py-3 mb-3 border-bottom">
+        <center><h1 class="text-center">後台管理系統</h1></center>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- 左側欄(功能列) -->
+            <div class="col-md-3 flex-shrink-0 p-3 text-white bg-white shadow" style="width: 280px; margin-right: 20px;">
+                <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+                    <svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                    <span class="fs-5 fw-semibold">小農分享平台</span>
+                </a>
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <button class="btn align-items-center rounded" id="MemberBtn">
+                            會員管理
+                        </button>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn align-items-center rounded" id="MessageBtn">
+                            訊息發送
+                        </button>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn align-items-center rounded" id="FarmersInfoBtn">
+                            小農資料
+                        </button>
+                    <li class="mb-1">
+                        <button class="btn align-items-center rounded" id="FarmersArticleBtn">
+                            小農文章
+                        </button>
+                    </li>
+                    <li class="border-top my-3"></li>
+                    <li class="mb-1">
+                        <form method="post" action="/Backend/logout">
+                            <button type="submit" class="btn w-100">登出</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 右側欄(內容區域) -->
+            <!-- 其他內容 -->
+            <div class="col p-3 shadow" id="FormContainer">
+
+                <!-- 發送郵件 -->
+                <div id="MessageForm" class="areaNone">
+
+                    <h3>發送訊息</h3>
+                    @if (TempData["LabelResult"] != null)
+                    {
+                        <div class="alert alert-info">
+                            @TempData["LabelResult"]
+                        </div>
+                    }
+                   
+                    <form method="post" action="/Backend/SendEmail">
+                        <div class="mb-3">
+                            <label for="Message" class="form-label">訊息內容</label>
+                            <textarea class="form-control" id="Message" name="message" rows="3" required></textarea>
+                        </div>
+                        <input type="hidden" name="actionType" value="yes" />
+                        <button type="submit" class="btn btn-primary">發送郵件</button>
+                    </form>
+                </div>
+
+                <!-- 會員資料區 -->
+                <div id="MemberTable" class="areaNone">
+                    <h3>會員列表 </h3>
+                    <form method="get" action="/Members/Search">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="搜尋會員" name="search" value="" />
+                            <button class="btn btn-outline-secondary" type="submit">搜尋</button>
+                        </div>
+                    </form>
+
+                    <a href="/Members/Create" class="btn btn-sm btn-primary mb-3">新增</a>
+
+                    <form method="post" action="/Members/SearchCancel" class="d-inline">
+                        <button type="submit" class="btn btn-sm btn-secondary mb-3">取消搜尋</button>
+                    </form>
+                                        
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>編號</th>
+                                <th>權限</th>
+                                <th>名稱</th>
+                                <th>帳號</th>
+                                <th>手機號碼</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                            
+                        <tbody>
+                        @if (Model.MemberInfo.Any())
+                        {
+                            foreach (var member in Model.MemberInfo.Select((value, index) => new { value, index }))
+                            {
+                                <tr>
+                                    <td>@(member.index+1)</td>
+                                    <td>@member.value.Role</td>
+                                    <td>@member.value.Name</td>
+                                    <td>@member.value.Email</td>
+                                    <td>@member.value.Phone</td>
+                                    <td class="d-flex">
+                                        <a href="/Members/Edit/@member.value.Id" class="btn btn-sm btn-success me-2">編輯</a>
+                                        <form method="post" action="/Members/Delete" onsubmit="return confirm('確認刪除這筆資料？');">
+                                            <input type="hidden" name="MemberId" value="@member.value.Id" />
+                                            <button type="submit" class="btn btn-sm btn-danger">刪除</button>
+                                        </form>                                            
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="6" class="text-center">沒有資料可顯示。</td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+            
+                </div>
+                <!-- 小農資料區 -->
+                <div id="FarmersInfoTable" class="container-fluid areaNone">
+                    <div class="d-flex justify-content-end p-3">
+                        <div class="d-flex align-items-center">
+                            <!-- 搜尋表單 -->
+                            <form class="w-70 me-3 input-group" action="/Farmers/InfoSearch" method="post">
+                                <input type="search" name="Search" class="form-control rounded-pill me-2" placeholder="Search..." aria-label="Search">
+                                <button class="btn border rounded-pill" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+
+                            <!-- 取消搜尋表單 -->
+                            <form action="/Farmers/InfoSearchCancel" method="post">
+                                <input type="hidden" name="Search" value="">
+                                <button class="btn btn-outline-secondary rounded" type="submit">
+                                    取消搜尋
+                                </button>
+                            </form>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex mb-2">
+                        <div class="me-3 p-1">
+                            <h2>小農資料</h2>
+                        </div>
+                        <div>
+                            <a href="/Farmers/FarmersInfoAdd" id="farmersCreate" class="btn btn-primary">新增成員</a>
+                        </div>
+                    </div>
+                    <hr />
+                    
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col-1">小農編號</th>
+                                <th scope="col">小農負責人</th>
+                                <th scope="col">農場名稱</th>
+                                <th scope="col">農作物</th>
+                                <th scope="col">農場地址</th>
+                                <th scope="col">聯絡電話</th>
+                                <th scope="col">信箱</th>
+                                <th scope="col">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        @if (Model != null && Model.FarmersInfo.Any())
+                        {
+                            @foreach (var item in Model.FarmersInfo.Select((farmer, idx) => new { farmer = farmer, idx = idx + 1 }))
+                            {
+                                <tr>
+                                    <th scope="row">@item.idx</th>
+                                    <td>@item.farmer.Name</td>
+                                    <td>@item.farmer.FarmName</td>
+                                    <td>@item.farmer.CropsType</td>
+                                    <td>@item.farmer.Address</td>
+                                    <td>@item.farmer.Phone</td>
+                                    <td>@item.farmer.Email</td>
+                                    <td class="d-flex">
+                                        <a href="/Farmers/FarmersInfoEdit/@item.farmer.FarmersId" class="btn btn-success btn-sm me-2">編輯</a>
+                                        <form method="post" action="/Farmers/FarmersInfoDelete" onsubmit="return confirm('確認刪除這筆資料？ 此資料刪除會包含所屬文章一併刪除');">
+                                            <input type="hidden" name="DeleteFarmersId" value="@item.farmer.FarmersId" />
+                                            <button type="submit" class="btn btn-sm btn-danger">刪除</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="8" class="bg-warning text-center fs-3">目前沒有資料</td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                   
+                </div>
+
+                <!-- 小農文章區 -->
+                <div id="FarmersArticlesList" class="container-fluid areaNone">
+                    <h2>小農文章</h2>
+                    <hr />
+                    @if (Model != null) { 
+                    @foreach (var item in Model.FarmersInfo.Select((farmer, idx) => new { farmer = farmer, idx = idx }))
+                    {
+                        <div class="accordion" id="accordionExample_@(item.idx +1)">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading_@(item.idx +1)">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_@(item.idx + 1)" aria-expanded="false" aria-controls="collapse_@(item.idx +1)">
+                                        <div class="me-3">@(item.idx + 1)</div>
+                                        <div>@item.farmer.FarmName</div>
+                                    </button>
+                                </h2>
+                                <div id="collapse_@(item.idx +1)" class="accordion-collapse collapse " aria-labelledby="heading_@(item.idx +1)" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div>
+                                            <a href="/Farmers/FarmersBlogAdd/@item.farmer.FarmersId" id="FarmersBlogAdd" class="btn btn-primary">新增文章</a>
+                                        </div>
+
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col-1">編號</th>
+                                                    <th scope="col">標題</th>
+                                                    <th scope="col">文章分類</th>
+                                                    <th scope="col">文章圖片</th>
+                                                    <th scope="col">發佈</th>
+                                                    <th scope="col">編輯日期</th>
+                                                    <th scope="col">操作</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @{
+                                                    bool hasArticles = item.farmer.FarmersArticles.Any();
+                                                }
+
+                                                @if (hasArticles)
+                                                {
+                                                    @foreach (var (article, idx) in item.farmer.FarmersArticles.Select((article, index) => (article, index)))
+                                                    {
+                                                        <tr>
+                                                            <th scope="row" style=" vertical-align: middle;">@(idx + 1)</th>
+                                                            <td style=" vertical-align: middle;">@article.ArticleTitle</td>
+                                                            <td style=" vertical-align: middle;">@article.ArticleType</td>
+                                                            <td style=" vertical-align: middle;"><img src="@article.ArticleImagePath" style="max-width: 100px; max-height: 100px; object-fit: cover;"></img></td>
+                                                            <td style=" vertical-align: middle;">@(article.IsPublished ? "是" : "否")</td>
+                                                            <td style=" vertical-align: middle;">@article.CreatedDate</td>
+
+                                                            <td class="d-flex" style="vertical-align: middle; align-items: center; height:130px">
+                                                                <a href="/Farmers/FarmersBlogEdit/@article.ArticlesId" class="btn btn-success me-2">編輯</a>
+                                                                <form method="post" action="/Farmers/FarmersBlogDelete" onsubmit="return confirm('確認刪除這筆資料？');">
+                                                                    <input type="hidden" name="DeleteArticlesId" value="@article.ArticlesId" />
+                                                                    <button type="submit" class="btn btn-danger">刪除</button>
+                                                                </form>
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    <tr>
+                                                        <td colspan="8" class="bg-warning text-center fs-3">目前沒有文章</td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        }
+                    }
+                    else
+                    {
+                        <h3 class="my-3 p-3 bg-warning rounded"> 請先建立小農資料 </h3>
+                    }
+                </div>           
+            </div>          
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!-- customer js -->
+    <script>
+        const areaShow = "@(TempData["show"])";
+     
+        // 後端傳遞的初始顯示區域
+        if (areaShow) {            
+            toggleDisplay(areaShow);          
+        }
+
+        // 設定按鈕事件監聽
+        document.getElementById("MemberBtn").addEventListener("click", function () {
+            toggleDisplay("MemberTable");
+        });
+        document.getElementById("MessageBtn").addEventListener("click", function () {
+            toggleDisplay("MessageForm");
+        });
+        document.getElementById("FarmersInfoBtn").addEventListener("click", function () {
+            toggleDisplay("FarmersInfoTable");
+        });
+        document.getElementById("FarmersArticleBtn").addEventListener("click", function () {
+            toggleDisplay("FarmersArticlesList");
+        });
+
+        // 改進 toggleDisplay 函式
+        function toggleDisplay(targetId) {
+            const sections = ["MemberTable", "MessageForm", "FarmersInfoTable", "FarmersArticlesList"];
+            sections.forEach(function (sectionId) {
+                const section = document.getElementById(sectionId);
+                if (sectionId === targetId) {
+                    section.classList.remove("areaNone"); // 顯示目標區域
+                } else {
+                    section.classList.add("areaNone"); // 隱藏其他區域
+                }
+            });
+        }
+    </script>
+
+    </body>
+</html>

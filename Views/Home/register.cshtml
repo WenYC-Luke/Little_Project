@@ -1,0 +1,106 @@
+﻿@{
+Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using Farmer_Project.Models.ViewModel
+@model UserRegisterViewModel
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+<style>
+.bg_color {
+    background-color: #F2AE30;
+}
+</style>
+
+<div class="container d-flex justify-content-center" style="padding: 100px 0 200px">
+<div class="card shadow-lg" style="max-width: 550px; width: 100%;">
+    <form id="RegisterForm" action="/Home/register" method="post" style="padding:50px 40px 25px">
+
+        @if (TempData["error"] != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                @TempData["error"]
+            </div>
+        }
+
+        <!-- 標題 -->
+        <div class="bg_color text-center p-2 rounded mb-4">
+            <h4 class="mb-0 fw-bold fs-3">會員註冊</h4>
+        </div>
+
+        <!-- 會員名稱 -->
+        <div class="my-3">
+            <label for="Name" class="form-label fw-bold fs-5">會員名稱</label>
+            <input type="text" class="form-control form-control" id="Name" name="Name" placeholder="請輸入您的姓名" required>
+            <div class="text-danger">
+                @Html.ValidationMessageFor(m => m.Name)
+            </div>
+        </div>
+
+        <!-- 會員帳號 -->
+        <div class="my-3">
+            <label for="Email" class="form-label fw-bold fs-5">會員帳號</label>
+            <input type="email" class="form-control form-control" id="Email" name="Email" placeholder="請輸入電子信箱" required>
+            <div class="text-danger">
+                @Html.ValidationMessageFor(m => m.Email)
+            </div>
+        </div>
+
+        <!-- 會員密碼 -->
+        <div class="my-3">
+            <label for="Password" class="form-label fw-bold fs-5">會員密碼</label>
+            <input type="password" class="form-control form-control" id="Password" name="Password" placeholder="8~12位數的密碼組合" required>
+            <div class="text-danger">
+                @Html.ValidationMessageFor(m => m.Password)
+            </div>               
+        </div>
+
+        <!-- 再次確認密碼 -->
+        <div class="my-3">
+            <label for="ComfirmPassword" class="form-label fw-bold fs-5">確認密碼</label>
+            <input type="password" class="form-control form-control" id="ComfirmPassword" name="ComfirmPassword" placeholder="請再一次輸入密碼" required>
+            <div class="text-danger" id="confirm-password-error"></div>             
+        </div>
+
+        <!-- 手機號碼 -->
+        <div class="my-3">
+            <label for="Phone" class="form-label fw-bold fs-5">手機號碼</label>
+            <input type="text" class="form-control form-control" id="Phone" name="Phone" placeholder="請輸入手機">
+        </div>
+
+
+        <div class="d-flex flex-column align-items-center my-4">
+            <!-- 提示訊息區塊 -->
+            <div class="d-flex justify-content-center align-items-center mb-3">
+                <p class="fs-6 me-3 mb-0">已有帳號?</p>
+                <a href="/Home/login" class="text-primary fs-6 fw-bold text-decoration-none">返回登入</a>
+            </div>
+            <!-- 註冊按鈕區塊 -->
+            <div>
+                <button type="submit" class="btn btn-primary px-4 py-2 fw-bold">註冊</button>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+<!-- 自訂義js -->
+<script>
+//確認密碼
+document.getElementById("RegisterForm").addEventListener("submit", function (event) {
+    var password = document.getElementById("Password").value;
+    var confirmPassword = document.getElementById("ComfirmPassword").value;
+    if (password !== confirmPassword) {
+        event.preventDefault();
+        document.getElementById("confirm-password-error").textContent = "密碼不一致";
+    }
+});
+</script>
+
+
+

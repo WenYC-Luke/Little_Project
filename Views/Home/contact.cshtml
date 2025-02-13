@@ -1,0 +1,125 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- contact section -->
+<section class="contact_section layout_padding">
+    <style>
+        /* 輸入框與按鈕樣式 */
+        .contact_form-container input,
+        .contact_form-container .message_input {
+            margin-bottom: 15px; /* 設定每個框框之間的間距 */
+            width: 100%; /* 確保輸入框的寬度一致 */
+            padding: 10px; /* 增加輸入框的內邊距 */
+            box-sizing: border-box; /* 確保padding不影響框框的總寬度 */
+        }
+
+        .contact_form-container button {
+            margin-top: 15px; /* 按鈕與輸入框之間的間距 */
+            padding: 10px 20px; /* 調整按鈕的內邊距 */
+            background-color: #f90; /* 按鈕背景色 */
+            border: none; /* 移除按鈕邊框 */
+            color: white; /* 按鈕文字顏色 */
+            cursor: pointer; /* 滑鼠指標效果 */
+            border-radius: 5px; /* 圓角按鈕 */
+        }
+
+            .contact_form-container button:hover {
+                background-color: #e68000; /* 滑鼠懸停時的按鈕效果 */
+            }
+
+        /* 訊息框樣式 */
+        .contact_form-container .alert {
+            width: 100%; /* 設定訊息框寬度與輸入框一致 */
+            margin-bottom: 15px; /* 與輸入框的間距 */
+            padding: 10px; /* 訊息框的內邊距 */
+            box-sizing: border-box; /* 確保內邊距不影響寬度 */
+            text-align: center; /* 訊息文字置中 */
+            border-radius: 5px; /* 加上圓角效果 */
+            background-color: #d9edf7; /* 設定訊息框背景色 */
+            color: #31708f; /* 訊息文字顏色 */
+            border: 1px solid #bce8f1; /* 訊息框邊框顏色 */
+        }
+
+        /* 外層容器樣式，確保整體寬度一致 */
+        .contact_form-container {
+            max-width: 100%;
+            padding: 0;
+        }
+
+        img {
+            padding: 0;
+            margin: 0;
+        }
+
+        farmer_photo {
+            bprder-radius: 50%;
+        }
+        /* 設定地圖容器的最小高度，讓地圖高度和容器一致 */
+        .map-container {
+            height: 100%;
+        }
+
+            /* 讓 iframe 填滿地圖容器 */
+            .map-container iframe {
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+    </style>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-lg-2 col-md-10 offset-md-1">
+                <div class="heading_container">
+                    <hr>
+                    <h2>
+                        Request A call back
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="layout_padding2-top">
+            <div class="row">
+                <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
+                    <div class="contact_form-container">
+                        <!-- 訊息框 -->
+                        @if (!string.IsNullOrEmpty(ViewBag.Message as string))
+                        {
+                            <div class="alert">
+                                @ViewBag.Message
+                            </div>
+                        }
+                        <!-- 表單 -->
+                        <form method="post" action="/Home/Contact">
+                            <div>
+                                <div>
+                                    <input type="text" id="Name" name="Name" class="form-control" placeholder="Full Name" required />
+                                </div>
+                                <div>
+                                    <input type="email" id="Email" name="Email" class="form-control" placeholder="Email" required />
+                                </div>
+                                <div>
+                                    <input type="text" id="Message" name="Message" class="message_input" rows="5" placeholder="Message" required />
+                                </div>
+                                <div>
+                                    <button type="submit">
+                                        Send
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="map_container">
+                        <div class="map-responsive">
+                            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=聯成電腦公館" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end contact section -->

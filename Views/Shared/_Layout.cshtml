@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>小農分享平台</title>
+
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="@ViewData["BodyClass"]">
+    <div class="hero_area">
+        <!-- header section strats -->
+        <div class="brand_box">
+            @if (TempData["success"] != null)
+            {
+                <div class="alert alert-success" id="success-message">
+                    @TempData["success"]
+                </div>
+            }
+        </div>
+        <!-- end header section -->
+        <div>
+            @RenderSection("Slider", required : false)
+        </div>
+    </div>
+    <!-- nav section -->
+    <section class="nav_section">
+        <div class="container">
+            <div class="custom_nav2">
+                <nav class="navbar navbar-expand custom_nav-container ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="d-flex  flex-column flex-lg-row align-items-center">
+                            <ul class="navbar-nav  ">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/Home/index">首頁 <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Home/about">關於我們 </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Home/crop">小農分類 </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Home/testimonial">小農推薦</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Home/Blog">部落格</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Home/contact">聯絡我們</a>
+                                </li>
+
+                                @if (Context.Session.GetString("IsLoggedIn") == "true")
+                                {
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/Home/logout">登出</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/Home/login">登入</a>
+                                    </li>
+                                }
+                            </ul>                           
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- end nav section -->
+
+    <!-- insert block -->
+    <div>
+        @RenderBody()
+    </div>
+    <!-- end insert block -->
+
+    <!-- info section -->
+    <section class="info_section layout_padding">
+        <div class="container">
+            <div class="info_logo">
+                <h2>
+                    小農資訊平台
+                </h2>
+            </div>
+            <div class="info_contact">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="">
+                            <img src="~/images/location.png" alt="">
+                            <span>
+                                台中市北屯區同榮北街10號
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="">
+                            <img src="~/images/call.png" alt="">
+                            <span>
+                                0928-972265
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="">
+                            <img src="~/images/mail.png" alt="">
+                            <span>
+                                lohasfarmertw@gmail.com
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </section>
+    <!-- end info section -->
+
+    <script type="text/javascript" src="~/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="~/js/bootstrap.js"></script>
+    
+    <script>
+        // 等待1秒後開始淡出
+        window.onload = function() {
+            var successMessage = document.getElementById("success-message");
+            if (successMessage) {
+                setTimeout(function() {
+                     successMessage.style.display = "none";
+                }, 1000); 
+            }
+        };
+    </script>
+</body>
+
+</html>
